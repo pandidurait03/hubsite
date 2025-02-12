@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Site</title>
+    <link rel="icon" href="./images/logo-favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="container" id="container">
+    <header class="header-container" id="header-container">
+        <nav class="nav-container" id="nav-container">
+            <div class="left-container" id="left-container">
+                <img src="./images/logo.png" alt="hubstream logo" class="logo" id="logo" >
+            </div>
+            <div class="right-container" id="right-container">
+                <div class="menu-container" id="menu-container" role="menubar">
+                    <div class="toggle-container" id="toggle-container">
+                    <img src="./images/toggle-bar-img.png" alt="" class="toggle-bar" id="toggle-bar">
+                    <ul class="list-container" id="list-container">
+                        <li class="list-item" id="home-listitem"><a href="#" class="list-link" id="home-link" aria-label="home">home</a></li>
+                        <li class="list-item" id="service-listitem"><a href="#" class="list-link" id="service-link" aria-label="service">service</a></li>
+                        <li class="list-item" id="contact-listitem">
+                            <a href="#" class="list-link" id="contact-link" aria-label="contact">contact<i class="fa-solid fa-caret-down dropdown-icon" id="dropdown-icon"></i></a>
+                            <ul class="dropdown-list" id="dropdown-list">
+                                <li class="dropdown-listitem" id="whatsapp-listitem" aria-label="whatsapp"><a href="#" class="dropdown-link" id="whatsapp">linkedIn</a></li>
+                                <li class="dropdown-listitem" id="instagram-listitem" aria-label="instagram"> <a href="#" class="dropdown-link" id="instagram">email</a></li>
+                                <li class="dropdown-listitem" id="instagram-listitem" aria-label="facebook"> <a href="#" class="dropdown-link" id="facebook">whatsapp</a></li>
+                            </ul>
+                        </li>
+                        <li class="login-wrapper list-item" id="login-wrapper">
+                            <div class="avatar-container" id="avatar-container">
+                                <img src="./images/login avatar.png" alt="login_image" class="login-avatar" id="login-avatar">
+                            </div>
+                            <div class="login-container" id="login-container">
+                                <form class="login-form" id="login-form">
+                                    <div class="input-container" id="input-container">
+                                        <input type="text" placeholder="Username"  class="primary-input" id="Username" aria-label="username">
+                                        <input type="password" placeholder="Password" class="primary-input" id="password" aria-label="password">
+                                        <p class="secondary-link-container" id="create-link-container"><a href="#" class="create-account-link" id="create-account-link">create new account</a></p>
+                                    </div>
+                                    <div class="btn-container" id="btn-container">
+                                        <button class="primary-button" id="primary-button" aria-label="submit" title="click to submit">submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container" id="main-container">
+    <section class="primary-main-container" id="primary-main-container">
+        <div class="primary-heading-container" id="primary-heading-container">
+            <h2 class="primary-heading" id="primary-heading">why you need to contact us?</h2>
+        </div>
+        <div class="search-container" id="search-container">
+            <input type="text" placeholder="search here for your solution" class="search-bar" id="search-bar">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+    </section>
+    <section class="secondary-main-container" id="secondary-main-container">
+        <div class="secondary-heading-containner" id="secondary-heading-containner">
+            <h2 class="secondary-heading" id="secondary-heading">safe. secure. shield</h2>
+        </div>
+        <div class="secondary-content-container" id="secondary-content-container">
+            <p class="secondary-content" id="secondary-content">A Data-Driven Case Management Platform Built for Leading Investigation Teams
+                Hubstream is an AI-powered, easy-to-use solution
+                that combines case management, data analytics, investigative intelligence and customizable workflows. </p>
+            <button class="secondary-button" id="secondary-button">learn more<i class="fa-solid fa-right-long right-arrow"></i></button>
+        </div>
+    </section>
+    <section class="teritory-main-container" id="teritory-main-container">
+    <div class="teritory-heading-container" id="teritory-heading-container">
+        <h2 class="teritory-heading" id="teritory-heading">Investigation teams face many <span class="teritory-imp-heading" id="teritory-imp-heading">data management challenges</span> today.</h2>
+    </div>
+    <div class="investigation-box-container" id="investigation-box-container">
+        <div class="primary-investigation investigation-child" id="primary-investigation">
+            <img src="./images/investigation_1.png" alt="Data Deluge" class="primary-investigation-image investigation-image" id="primary-investigation-image">
+            <h2 class="primary-investigation-heading investigation-heading" id="primary-investigation-heading" >Data Deluge</h2>
+            <p class="primary-investigation-content" id="primary-investigation-content">Many investigators still rely on spreadsheets, file folders or outdated case management systems to handle a massive influx of data daily, but it has become too much to manage without sufficient resources and time, resulting in inefficiency and deteriorating mental health.</p>
+        </div>
+        <div class="secondary-investigation investigation-child" id="secondary-investigation">
+            <img src="./images/investigation_2.png" alt="Data fatigue" class="secondary-investigation-image investigation-image" id="secondary-investigation-image">
+            <h2 class="secondary-investigation-heading investigation-heading" id="secondary-investigation-heading">Data fatigue</h2>
+            <p class="secondary-investigation-content" id="secondary-investigation-content">If investigation data becomes too vast or varied, investigators who rely on a basic data repository may struggle to make sense of existing sources or unstructured data, potentially missing chances to derive actionable insights and identify repeat offenders.</p>
+        </div>
+        <div class="primary-investigation investigation-child" id="primary-investigation">
+            <img src="./images/investigation_3.png" alt="inadequate reporting   " class="teritory-investigation-image investigation-image" id="teritory-investigation-image">
+            <h2 class="teritory-investigation-heading investigation-heading" id="teritory-investigation-heading">inadequate reporting</h2>
+            <p class="teritory-investigation-content" id="teritory-investigation-content">Missing data from monthly reports or dashboards can happen easily for investigators because data points from outside sources might only provide limited and static information if they are not in a unified data hub, hindering the ability to have a complete understanding of the performance or workloads of your team.</p>
+        </div>
+    </div>
+    <div class="teritory-heading-container " id="teritory-heading-container">
+        <h2 class="teritory-heading teritory-second-heading" id="teritory-heading">Fortunately, Hubstream is <span class="teritory-imp-heading" id="teritory-imp-heading">purpose-designed</span> to help you solve these key challenges.</h2>
+    </div>
+    </section>
+    </main>
+    <footer class="bottom-main-container" id="bottom-main-container">
+        <div class="bottom-sub-container" id="bottom-sub-container">
+            <div class="bottom-logo-container" id="bottom-logo-container">
+                <img src="./images/bottom-logo-hubstream.png" alt="" class="bottom-logo" id="bottom-logo">
+            </div>
+            <div class="bottom-content-conatiner" id="bottom-content-conatiner">
+                <p class="bottom-content" id="bottom-content">The Hubstream platform combines investigative case management, link analysis and visualization, and hyper-customizable workflows into one easy-to-use product</p>
+            </div>
+        <div class="bottom-nav-container" id="bottom-nav-container">
+            <div class="bottom-primary-nav">
+                <h3 class="bottom-nav-heading">company</h3>
+                <ul class="bottom-nav-list-container">
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">blog</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">hubstream vs others</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">hubstream vs competitors</a></li>
+                </ul>
+            </div>
+            <div class="bottom-secondary-nav">
+                <h3 class="bottom-nav-heading">resources</h3>
+                <ul class="bottom-nav-list-container">
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">about</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">contact</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">Why hubstream</a></li>
+                </ul>
+            </div>
+            <div class="bottomt-teritory-nav">
+                <h3 class="bottom-nav-heading">compare</h3>
+                <ul class="bottom-nav-list-container">
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">vs custom built</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">vs tradional case management</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">vs IBM/harris i2 group</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">scouyt cms</a></li>
+                </ul>
+            </div>
+            <div class="bottom-quatenary-nav">
+                <h3 class="bottom-nav-heading">learn more</h3>
+                <ul class="bottom-nav-list-container">
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">contact hubstream</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">pricing</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">request a demo</a></li>
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">tech</a></li>
+
+                </ul>
+            </div>
+            <div class="bottom-primary-nav">
+                <h3 class="bottom-nav-heading">legal</h3>
+                <ul class="bottom-nav-list-container">
+                    <li class="bottom-link-list"><a href="#" class="bottom-link-listitem">privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-secondary-container">
+            <div class="bottom-seqcondary-content-container">
+                <p class="bottom-secondary-content">&copy; 2024 hubstream inc.all rights reserved</p>
+            </div>
+            <div class="bottom-nav-logo-container">
+               <a href="#" class="botton-nav-logo-link"><i class="fa-brands fa-linkedin"></i></a> 
+               <a href="#" class="botton-nav-logo-link"> <i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        
+        </div>
+    </footer>
+</body>
+</html>
